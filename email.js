@@ -3,12 +3,13 @@ const { logger } = require("./logger");
 
 const transporter = nodemailer.createTransport({
    host: process.env.EMAIL_HOST,
-   port: 465,
-   secure: true,
+   port: process.env.EMAIL_PORT,
+   secure: false,
    auth: {
-    user: process.env.EMAIL_USER,
-    password: process.env.EMAIL_PASSWORD
-   } 
+    user: process.env.EMAIL_USERNAME,
+    pass: process.env.EMAIL_PASSWORD
+   },
+   requireTLS: true
 });
 
 transporter.verify(function(error, success) {

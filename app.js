@@ -7,7 +7,7 @@ require("dotenv").config();
 // const axios = require("axios");
 const { logger } = require("./logger");
 const { sanitizeString } = require("./sanitizeString.js");
-const { transport } = require("./email");
+const { transporter } = require("./email");
 
 app.use(express.static("build"));
 app.use(express.json());
