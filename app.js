@@ -11,6 +11,7 @@ const { transporter } = require("./email");
 
 app.use(express.static("build"));
 app.use(express.json());
+app.use(cors());
 app.use((req, res, next) => {
     logger.info(`Received a ${req.method} request for ${req.url}`);
     next();
