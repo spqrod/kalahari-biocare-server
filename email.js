@@ -13,8 +13,10 @@ const transporter = nodemailer.createTransport({
 });
 
 transporter.verify(function(error, success) {
-    if (error)
+    if (error) {
+        logger.error("Error connecting to mail server");
         logger.error(error);
+    }
     else 
         logger.info("Connected to mail server");
 });

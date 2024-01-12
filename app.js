@@ -29,7 +29,7 @@ app.post("/api/email", async (req, res) => {
     // try {
     //     const response = await axios.post(googleURL);
     //     if (response.data.success) {
-    //         logger.info(`Captcha in ${req.url} successful`);
+            // logger.info(`Captcha in ${req.url} successful`);
 
             let { name, email, phone, formMessage } = req.body;
             name = sanitizeString(name);
