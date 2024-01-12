@@ -9,12 +9,6 @@ const transporter = nodemailer.createTransport({
     user: process.env.EMAIL_USERNAME,
     pass: process.env.EMAIL_PASSWORD
    },
-   tls: {
-    // rejectUnauthorized: false
-   },
-   logger: true,
-   name: "kalaharibiocare.com"
-//    requireTLS: true
 });
 
 transporter.verify(function(error, success) {
