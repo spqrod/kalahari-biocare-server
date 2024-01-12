@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aecd1f80.css",
-    "main.js": "/static/js/main.071b4a7c.js",
+    "main.css": "/static/css/main.14dda74d.css",
+    "main.js": "/static/js/main.17033c06.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/product-image-1.jpeg": "/static/media/product-image-1.911ea5a933221b0d7e05.jpeg",
     "static/media/monica-with-villagers-2.jpg": "/static/media/monica-with-villagers-2.4e9736386da50ffbdd30.jpg",
@@ -46,7 +46,6 @@
     "static/media/logo-eu.svg": "/static/media/logo-eu.e7e6e08b97b2e12bb811fbab0cb62f60.svg",
     "static/media/regeneration-icon.svg": "/static/media/regeneration-icon.2878804e85dad30beee856683fc6e473.svg",
     "static/media/restructuring-icon.svg": "/static/media/restructuring-icon.3bb45ce60656105a2d93fdfa4ba88468.svg",
-    "static/media/instagram-icon.svg": "/static/media/instagram-icon.b32003ad26d6d68f70c3cf9b4eff8088.svg",
     "static/media/whatsapp-icon.svg": "/static/media/whatsapp-icon.cc3b8f82e59cefa927fab6f4ceb917b8.svg",
     "static/media/drop-icon.svg": "/static/media/drop-icon.f3d8a891118f348b9b5d427ea77dc32b.svg",
     "static/media/call-icon.svg": "/static/media/call-icon.d3b6323e32f87db4597705b36d01adda.svg",
@@ -59,11 +58,11 @@
     "static/media/star.svg": "/static/media/star.2cdd52d59e81d41ce4bf72f7c41fa965.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.6bcf63211a520adc204705568e1c2586.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.a4c69023ceb1041dcd650df8e0085a08.svg",
-    "main.aecd1f80.css.map": "/static/css/main.aecd1f80.css.map",
-    "main.071b4a7c.js.map": "/static/js/main.071b4a7c.js.map"
+    "main.14dda74d.css.map": "/static/css/main.14dda74d.css.map",
+    "main.17033c06.js.map": "/static/js/main.17033c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.aecd1f80.css",
-    "static/js/main.071b4a7c.js"
+    "static/css/main.14dda74d.css",
+    "static/js/main.17033c06.js"
   ]
 }
