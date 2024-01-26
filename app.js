@@ -23,11 +23,9 @@ app.get("*", (req, res) => {
 
 app.post("/api/email", async (req, res) => {
 
-    // const { token } = sanitizeString(req.body);
-    const { token } = req.body;
+    const { token } = sanitizeString(req.body);
+    // const { token } = req.body;
     logger.info(typeof token);
-    logger.info(token);
-    logger.info(process.env.GOOGLE_CAPTCHA_SECRET_KEY);
     const googleURL = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.GOOGLE_CAPTCHA_SECRET_KEY}&response=${token}`;
 
     try {
