@@ -4,7 +4,7 @@ const port = 70;
 const path = require("path");
 const cors = require("cors");
 require("dotenv").config();
-// const axios = require("axios");
+const axios = require("axios");
 const { logger } = require("./logger");
 const { sanitizeString } = require("./sanitizeString.js");
 const { transporter } = require("./email");
@@ -23,13 +23,13 @@ app.get("*", (req, res) => {
 
 app.post("/api/email", async (req, res) => {
 
-    // const { token } = req.body;
-    // const googleURL = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.CAPTCHA_SECRET_KEY}&response=${token}`;
+    const { captchaToken } = sanitizeString(req.body);
+    const googleURL = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.GOOGLE_CAPTCHA_SECRET_KEY}&response=${captchaToken}`;
 
-    // try {
-    //     const response = await axios.post(googleURL);
-    //     if (response.data.success) {
-            // logger.info(`Captcha in ${req.url} successful`);
+    try {
+        const response = await axios.post(googleURL);
+        if (response.data.success) {
+            logger.info(`Captcha in ${req.url} successful`);
 
             let { name, email, phone, formMessage } = req.body;
             name = sanitizeString(name);
@@ -54,15 +54,15 @@ app.post("/api/email", async (req, res) => {
                 .then(() => res.json({success: true}))
                 .catch(() => res.json({success: false}));
 
-    //     } else {
-    //         logger.info("CAPTCHA failed");
-    //         res.json({res: "reCAPTCHA failed"});
-    //     }
-    // } catch (error) {
-    //     logger.info("CAPTCHA error");
-    //     logger.info(error);
-    //     res.status(500).json({res: "Error verifying reCAPTCHA"});
-    // }
+        } else {
+            logger.info("CAPTCHA failed");
+            res.json({res: "reCAPTCHA failed"});
+        }
+    } catch (error) {
+        logger.info("CAPTCHA error");
+        logger.info(error);
+        res.status(500).json({res: "Error verifying reCAPTCHA"});
+    }
 });
 
 app.listen(port, () => logger.info(`Listening to port ${port}`));
