@@ -23,10 +23,13 @@ app.get("*", (req, res) => {
 
 app.post("/api/email", async (req, res) => {
 
-    const { captchaToken } = sanitizeString(req.body);
-    const googleURL = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.GOOGLE_CAPTCHA_SECRET_KEY}&response=${captchaToken}`;
-    logger.info(process.env.GOOGLE_CAPTCHA_SECRET_KEY.slice(9));
-    logger.info(captchaToken);
+    // const { token } = sanitizeString(req.body);
+    logger.info(typeof token);
+    logger.info(token);
+    const { token } = req.body;
+    logger.info(process.env.GOOGLE_CAPTCHA_SECRET_KEY);
+    logger.info(token);
+    const googleURL = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.GOOGLE_CAPTCHA_SECRET_KEY}&response=${token}`;
 
     try {
         const response = await axios.post(googleURL);
