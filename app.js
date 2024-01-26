@@ -25,6 +25,8 @@ app.post("/api/email", async (req, res) => {
 
     const { captchaToken } = sanitizeString(req.body);
     const googleURL = `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.GOOGLE_CAPTCHA_SECRET_KEY}&response=${captchaToken}`;
+    logger.info(process.env.GOOGLE_CAPTCHA_SECRET_KEY.slice(9));
+    logger.info(captchaToken);
 
     try {
         const response = await axios.post(googleURL);
@@ -56,6 +58,7 @@ app.post("/api/email", async (req, res) => {
 
         } else {
             logger.info("CAPTCHA failed");
+            logger.info(response.data);
             res.json({res: "reCAPTCHA failed"});
         }
     } catch (error) {
