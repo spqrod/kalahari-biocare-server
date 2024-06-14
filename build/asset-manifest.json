@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.55c653ab.css",
-    "main.js": "/static/js/main.e779d44d.js",
+    "main.css": "/static/css/main.dea02545.css",
+    "main.js": "/static/js/main.8ca9252b.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/product-image-1.jpeg": "/static/media/product-image-1.911ea5a933221b0d7e05.jpeg",
     "static/media/monica-with-villagers-2.jpg": "/static/media/monica-with-villagers-2.4e9736386da50ffbdd30.jpg",
     "static/media/giraffe-background.jpg": "/static/media/giraffe-background.cae82a54aff85bc4a073.jpg",
-    "static/media/monica-at-training.jpg": "/static/media/monica-at-training.06f2f6925ebb59150947.jpg",
+    "static/media/ximenia-fruit.jpg": "/static/media/ximenia-fruit.9c7767d4ab10e1a1a03a.jpg",
+    "static/media/sunflower.jpg": "/static/media/sunflower.44c92c490bc24713eb10.jpg",
     "static/media/monica-with-villagers.jpg": "/static/media/monica-with-villagers.11833c4347bc14cfecb3.jpg",
     "static/media/product-image-3.jpeg": "/static/media/product-image-3.5f097f6da9efcd3a0cff.jpeg",
+    "static/media/sunflower-seeds.jpg": "/static/media/sunflower-seeds.7ae4b989776ffebab9d6.jpg",
     "static/media/kalahari-oil-on-background-for-hero.jpg": "/static/media/kalahari-oil-on-background-for-hero.a25bf517d15899565dfa.jpg",
+    "static/media/seeds.jpeg": "/static/media/seeds.fa2f1b42eee75a50d938.jpeg",
     "static/media/Cinzel-VariableFont_wght.ttf": "/static/media/Cinzel-VariableFont_wght.2d087b545bf495f3d86d.ttf",
     "static/media/tree.jpg": "/static/media/tree.807d30ed8dab4486a058.jpg",
+    "static/media/ximenia.jpg": "/static/media/ximenia.057349ad798851fb76fc.jpg",
+    "static/media/berries-3-2.jpg": "/static/media/berries-3-2.a86df2cb31a1bcb10ea6.jpg",
     "static/media/product-image-0.jpeg": "/static/media/product-image-0.27d8dee9b9b4987d4f4d.jpeg",
+    "static/media/melon.jpg": "/static/media/melon.76a128cee2687b325e1c.jpg",
     "static/media/product-image-2.jpeg": "/static/media/product-image-2.f18cd3f1c46c64c290ea.jpeg",
+    "static/media/mongongo-tree-2.jpg": "/static/media/mongongo-tree-2.6c39a1af11babeb5dbff.jpg",
+    "static/media/berries-2-2.jpg": "/static/media/berries-2-2.648a91c495a95da2a4ed.jpg",
     "static/media/villagers-with-monica.jpg": "/static/media/villagers-with-monica.629b851223d40c375912.jpg",
     "static/media/logo-saeopa.svg": "/static/media/logo-saeopa.885f70826f2613202c93d00d6f630605.svg",
     "static/media/basket-with-seeds.jpg": "/static/media/basket-with-seeds.9c7f0715c8cc95488e1e.jpg",
@@ -21,7 +29,6 @@
     "static/media/woman-1.jpg": "/static/media/woman-1.c87638047cf981a75734.jpg",
     "static/media/monica.jpeg": "/static/media/monica.f484cebe1580e020ca2a.jpeg",
     "static/media/mongongo-oil-in-flask.jpg": "/static/media/mongongo-oil-in-flask.3420117d6e58e751fe18.jpg",
-    "static/media/berries-3.jpg": "/static/media/berries-3.dc572e68f1cee70a1d90.jpg",
     "static/media/women-with-baskets.jpg": "/static/media/women-with-baskets.ec1565b93a2483d9c490.jpg",
     "static/media/woman-2.jpg": "/static/media/woman-2.e5db0f5cefdf21603e7a.jpg",
     "static/media/greyson.jpeg": "/static/media/greyson.c5a2f13417e7dc87de10.jpeg",
@@ -32,12 +39,10 @@
     "static/media/smiling-woman.jpg": "/static/media/smiling-woman.ca29835d0c7e378b8181.jpg",
     "static/media/trevor-watson.jpeg": "/static/media/trevor-watson.405bd7f37ac3fbbc655c.jpeg",
     "static/media/trevor-robson.jpeg": "/static/media/trevor-robson.62ccf931eeb38d112f3b.jpeg",
-    "static/media/mongongo-tree.jpg": "/static/media/mongongo-tree.fc66a3659127d06ad0f9.jpg",
     "static/media/kalahari-oil-in-50ml.jpg": "/static/media/kalahari-oil-in-50ml.9747dd63ef97156d5bc6.jpg",
     "static/media/worker-with-mongongo-oil-barrels.jpg": "/static/media/worker-with-mongongo-oil-barrels.a9c014bc3b53897445a7.jpg",
     "static/media/villagers-with-monica-2.jpg": "/static/media/villagers-with-monica-2.359a9ab57c1a8aad6d64.jpg",
     "static/media/berries-1.jpg": "/static/media/berries-1.73d6299c9f700032a4c1.jpg",
-    "static/media/berries-2.jpg": "/static/media/berries-2.be80b5f42d274266cdcb.jpg",
     "static/media/logo-usda.svg": "/static/media/logo-usda.89fce8ab6db31c34e7bd42f05f31fc4a.svg",
     "static/media/hand-with-nuts.jpg": "/static/media/hand-with-nuts.13ed28c1be26d1420c55.jpg",
     "static/media/feature-2-background.jpg": "/static/media/feature-2-background.af4cd1f6e641a1861ed8.jpg",
@@ -59,11 +64,11 @@
     "static/media/star.svg": "/static/media/star.2cdd52d59e81d41ce4bf72f7c41fa965.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.6bcf63211a520adc204705568e1c2586.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.a4c69023ceb1041dcd650df8e0085a08.svg",
-    "main.55c653ab.css.map": "/static/css/main.55c653ab.css.map",
-    "main.e779d44d.js.map": "/static/js/main.e779d44d.js.map"
+    "main.dea02545.css.map": "/static/css/main.dea02545.css.map",
+    "main.8ca9252b.js.map": "/static/js/main.8ca9252b.js.map"
   },
   "entrypoints": [
-    "static/css/main.55c653ab.css",
-    "static/js/main.e779d44d.js"
+    "static/css/main.dea02545.css",
+    "static/js/main.8ca9252b.js"
   ]
 }
