@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dea02545.css",
-    "main.js": "/static/js/main.8ca9252b.js",
+    "main.js": "/static/js/main.ddafe9d1.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/product-image-1.jpeg": "/static/media/product-image-1.911ea5a933221b0d7e05.jpeg",
     "static/media/monica-with-villagers-2.jpg": "/static/media/monica-with-villagers-2.4e9736386da50ffbdd30.jpg",
@@ -17,7 +17,9 @@
     "static/media/tree.jpg": "/static/media/tree.807d30ed8dab4486a058.jpg",
     "static/media/ximenia.jpg": "/static/media/ximenia.057349ad798851fb76fc.jpg",
     "static/media/berries-3-2.jpg": "/static/media/berries-3-2.a86df2cb31a1bcb10ea6.jpg",
+    "static/media/berries.jpg": "/static/media/berries.a86df2cb31a1bcb10ea6.jpg",
     "static/media/product-image-0.jpeg": "/static/media/product-image-0.27d8dee9b9b4987d4f4d.jpeg",
+    "static/media/melons.jpeg": "/static/media/melons.783d301a78e95ee868fc.jpeg",
     "static/media/melon.jpg": "/static/media/melon.76a128cee2687b325e1c.jpg",
     "static/media/product-image-2.jpeg": "/static/media/product-image-2.f18cd3f1c46c64c290ea.jpeg",
     "static/media/mongongo-tree-2.jpg": "/static/media/mongongo-tree-2.6c39a1af11babeb5dbff.jpg",
@@ -65,10 +67,10 @@
     "static/media/arrow-right.svg": "/static/media/arrow-right.6bcf63211a520adc204705568e1c2586.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.a4c69023ceb1041dcd650df8e0085a08.svg",
     "main.dea02545.css.map": "/static/css/main.dea02545.css.map",
-    "main.8ca9252b.js.map": "/static/js/main.8ca9252b.js.map"
+    "main.ddafe9d1.js.map": "/static/js/main.ddafe9d1.js.map"
   },
   "entrypoints": [
     "static/css/main.dea02545.css",
-    "static/js/main.8ca9252b.js"
+    "static/js/main.ddafe9d1.js"
   ]
 }
