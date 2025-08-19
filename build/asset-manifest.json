@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dea02545.css",
-    "main.js": "/static/js/main.ddafe9d1.js",
+    "main.css": "/static/css/main.0edc5bc4.css",
+    "main.js": "/static/js/main.39ee7a61.js",
     "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a4acc0356c6ea73f2c3.ttf",
     "static/media/product-image-1.jpeg": "/static/media/product-image-1.911ea5a933221b0d7e05.jpeg",
     "static/media/monica-with-villagers-2.jpg": "/static/media/monica-with-villagers-2.4e9736386da50ffbdd30.jpg",
@@ -66,11 +66,11 @@
     "static/media/star.svg": "/static/media/star.2cdd52d59e81d41ce4bf72f7c41fa965.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.6bcf63211a520adc204705568e1c2586.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.a4c69023ceb1041dcd650df8e0085a08.svg",
-    "main.dea02545.css.map": "/static/css/main.dea02545.css.map",
-    "main.ddafe9d1.js.map": "/static/js/main.ddafe9d1.js.map"
+    "main.0edc5bc4.css.map": "/static/css/main.0edc5bc4.css.map",
+    "main.39ee7a61.js.map": "/static/js/main.39ee7a61.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea02545.css",
-    "static/js/main.ddafe9d1.js"
+    "static/css/main.0edc5bc4.css",
+    "static/js/main.39ee7a61.js"
   ]
 }
